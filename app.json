@@ -1,18 +1,18 @@
 {
-    "name": "Force Sub Bot",
-    "description": "Python based bot to Force Users to sub a channel.",
+    "name": "ACE - Force Subscribe Bot",
+    "description": "Python based bot to Force Users to subscribe a channel.",
     "logo": "",
     "keywords": [
         "telegram",
         "pyrogram",
         "pyrogrambot",
         "telegram-bot",
-        "Forcesub",
-        "ForceSubBot"
+        "FSub",
+        "ForceSubscribe"
     ],
-    "repository": "https://github.com/Jigarvarma2005/ForceSub_Bot",
-    "website": "https://t.me/UniversalBotsUpdate",
-    "success_url": "https://t.me/UniversalBotsUpdate",
+    "repository": "https://github.com/TheFlashSpeedster/ACE-Force-Subscribe",
+    "website": "https://t.me/ACE_ML",
+    "success_url": "https://t.me/ACE_ML",
     "env": {
         "API_HASH": {
             "description": "You API HASH from my.telegram.org",
@@ -35,7 +35,7 @@
             "required": false
         },
         "SUDO_USERS": {
-            "description": "Sudo users (Goto @JVToolsBot and send /id to get your id)",
+            "description": "Sudo users (Goto @MissRoseBot and send /id to get your id)",
             "value": "",
             "required": false
         }

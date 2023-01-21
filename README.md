@@ -1,48 +1,56 @@
-# Introduction
+# Force Subscribe Bot 🤖
 **A Telegram Bot to force users to join a specific channel before sending messages in a group.**
-- Find it on Telegram as [Force Subscriber](https://t.me/ForceSubscriber_UBot)
 
-## Todo
-- [ ] Add multiple channels support
-- [ ] LOGGER support.
+## [🌟 Join Our Channel 🌟](https://t.me/ACE_ML)
 
-## Whats new in this fork?🤔
+## 🎉 Whats New?
+- Heroku Eco Plan Support 🔥
 - Added Private channel support.
 - Some improvments and fixes.
 - Added force sub for your bot channel.
-- Changes in commands
+- Changes in commands.
 
-## Deploy
+## 🛠️ Deployment
 
-### Deploy To Heroku Now:
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Jigarvarma2005/ForceSub_Bot)
+<details>
+  <summary>Heroku</summary>
 
-### Deploy in vps
+<br>
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TheFlashSpeedster/ACE-Force-Subscribe)
+</details>
+
+<details>
+
+  <summary>VPS</summary>
+
+<br>
+
 - Clone this repo
 ```
-git clone https://github.com/Jigarvarma2005/ForceSub_Bot
+git clone https://github.com/TheFlashSpeedster/ACE-Force-Subscribe
 ```
 - Change directory
 ```
-cd ForceSub_Bot
+cd ACE-Force-Subscribe
 ```
 - Install requirements
 ```
 pip3 install -r requirements.txt
 ```
-- setup configuration
+
+- Edit Config via nano
 ```
-Open Config.py in text Editor and set values
+nano Config.py
 ```
 - Start the bot
 ```
 python3 bot.py
 ```
-## Configs:
+
+</details>
+
+## ✍️ Variables:
 - Read `Config.py` to know all configs
 
-## Thanks to
-- [Jigar Varma](https://github.com/Jigarvarma2005)
-- [viperadnan](https://github.com/viperadnan-git)
-- [PyroGram](https://PyroGram.org)
-- [Hasibul Kabir](https://GitHub.com/hasibulkabir) and [Spechide](https://GitHub.com/spechide) for helping.
+## [🌟 Join Our Channel 🌟](https://t.me/ACE_ML)

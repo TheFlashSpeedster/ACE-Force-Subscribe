@@ -79,14 +79,14 @@ async def _source_code(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🌐 Source Code", url="https://t.me/ACE_ML")
+                    InlineKeyboardButton("🌐 Source Code 🌐", url="https://t.me/ACE_ML")
                 ],
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/ACE_ML"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/ACE_OffTopic")
+                    InlineKeyboardButton("🌟 Join Channel", url="https://t.me/ACE_ML"),
+                    InlineKeyboardButton("💬 Support Group", url="https://t.me/ACE_OffTopic")
                 ],
                 [
-                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/FlashSpeedster1")
+                    InlineKeyboardButton("👨‍💻 Developer 🧑‍💻", url="https://t.me/FlashSpeedster1")
                 ]
             ]
         ),

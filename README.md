@@ -68,8 +68,11 @@ git clone https://github.com/TheFlashSpeedster/ACE-Force-Subscribe && cd ACE-For
 
 - `BOT_TOKEN` Get it from [@BotFather](https://t.me/BotFather)
 - `UPDATES_CHANNEL` Your Channel Username (without @)
+- `DATABASE_URL` Get it from [ElephantSQL 🐘](https://customer.elephantsql.com)
 - `APP_ID` Get it from [my.telegram.org](https://my.telegram.org)
 - `API_HASH` Get it from [my.telegram.org](https://my.telegram.org)
 - `SUDO_USERS` Your User ID. Use [@MissRoseBot](https://t.me/MissRoseBot)
+
+😏 DATABASE_URL not required for Heroku.
 
 ## [🌟 Join Our Channel 🌟](https://t.me/ACE_ML)

@@ -4,16 +4,16 @@
 ## [🌟 Join Our Channel 🌟](https://t.me/ACE_ML)
 
 ## 🎉 Whats New?
-- Heroku Eco Plan Support 🔥
-- Added Private channel support.
-- Some improvments and fixes.
-- Added force sub for your bot channel.
-- Changes in commands.
+- Heroku Eco Plan Support
+- Private Channel Support
+- Improvements and Bug fixes
+- Added Force Sub for Bot Updates Channel too
+- Changes in Commands
 
 ## 🛠️ Deployment
 
 <details>
-  <summary>Heroku</summary>
+  <summary>🔆 Heroku Deploy</summary>
 
 <br>
 
@@ -22,7 +22,7 @@
 
 <details>
 
-  <summary>VPS</summary>
+  <summary>👨‍🔧 VPS Deploy</summary>
 
 <br>
 
@@ -39,7 +39,7 @@ cd ACE-Force-Subscribe
 pip3 install -r requirements.txt
 ```
 
-- Edit Config via nano
+- Edit Config via nano and Fill Vars
 ```
 nano Config.py
 ```
@@ -49,8 +49,27 @@ python3 bot.py
 ```
 
 </details>
+<details>
+   <summary>⚡ Quick VPS Deploy</summary>
+<br>
 
-## ✍️ Variables:
-- Read `Config.py` to know all configs
+- Fork and Fill Config.env
+
+- Run this Command
+
+```
+git clone https://github.com/TheFlashSpeedster/ACE-Force-Subscribe && cd ACE-Force-Subscribe && pip install -r requirements.txt && python3 bot.py
+```
+ℹ️ Replace `TheFlashSpeedster` with your GitHub Username
+
+</details>
+
+## ✍️ Variables
+
+- `BOT_TOKEN` Get it from [@BotFather](https://t.me/BotFather)
+- `UPDATES_CHANNEL` Your Channel Username (without @)
+- `APP_ID` Get it from [my.telegram.org](https://my.telegram.org)
+- `API_HASH` Get it from [my.telegram.org](https://my.telegram.org)
+- `SUDO_USERS` Your User ID. Use [@MissRoseBot](https://t.me/MissRoseBot)
 
 ## [🌟 Join Our Channel 🌟](https://t.me/ACE_ML)

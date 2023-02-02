@@ -45,13 +45,17 @@
             "required": false
         }
     },
-  "buildpacks": [{
-      "url": "heroku/python"
-    }],
-  "formation": {
-      "web": {
-          "quantity": 1,
-          "size": "eco"
+    "addons": [
+    {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
       }
-  }
+  ],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
 }

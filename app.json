@@ -1,6 +1,6 @@
 {
     "name": "ACE - Force Subscribe Bot",
-    "description": "Python based bot to Force Users to subscribe a channel.",
+    "description": "Python Based Telegram Bot To Force Users to Subscribe a Channel",
     "logo": "",
     "keywords": [
         "telegram",
@@ -15,39 +15,36 @@
     "success_url": "https://t.me/ACE_ML",
     "env": {
         "API_HASH": {
-            "description": "You API HASH from my.telegram.org",
+            "description": "Get it from my.telegram.org",
             "value": "",
             "required": true
         },
         "APP_ID": {
-            "description": "You APP ID from my.telegram.org",
+            "description": "Get it from my.telegram.org",
             "value": "",
             "required": true
         },
         "BOT_TOKEN": {
-            "description": "Bot token, get it from @BotFather.",
+            "description": "Get it from @BotFather",
             "value": "",
             "required": true
         },
         "UPDATES_CHANNEL": {
-            "description": "Your bot updates channel username without @ or leave empty",
+            "description": "Updates Channel ID",
             "value": "",
             "required": false
         },
         "SUDO_USERS": {
-            "description": "Sudo users (Goto @MissRoseBot and send /id to get your id)",
+            "description": "Sudo User ID",
             "value": "",
             "required": false
+        },
+        "DATABASE_URL": {
+            "description": "PostgreSQL Database URL from ElephantSQL",
+            "value": "",
+            "required": true
         }
     },
-    "addons": [
-    {
-         "options": {
-            "version": "12"
-         },
-         "plan": "heroku-postgresql"
-      }
-  ],
     "buildpacks": [
         {
             "url": "heroku/python"

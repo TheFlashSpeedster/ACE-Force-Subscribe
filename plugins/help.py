@@ -25,11 +25,11 @@ async def _start(client, message):
         except UserNotParticipant:
             await client.send_message(
                 chat_id=message.chat.id,
-                text="**Please Join My Updates Channel to use this Bot!**",
+                text="**🙁 Join My Channel To Use This Bot!**",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/{update_channel}")
+                            InlineKeyboardButton("⚡ Join Updates Channel", url=f"https://t.me/{update_channel}")
                         ]
                     ]
                 ),
@@ -42,11 +42,11 @@ async def _start(client, message):
 	        reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/ACE_ML"),
-                           InlineKeyboardButton("Support Group", url="https://t.me/ACE_OffTopic")
+                           InlineKeyboardButton("✨ Updates", url="https://t.me/ACE_ML"),
+                           InlineKeyboardButton("⛑️ Support", url="https://t.me/ACE_OffTopic")
                       ],
                      [
-                           InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/FlashSpeedster1")
+                           InlineKeyboardButton("🧑‍💻 Developer", url="https://t.me/AceContactBot")
                      ]
                  ]
              ),
@@ -59,11 +59,11 @@ async def _start(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/ACE_ML"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/ACE_OffTopic")
+                    InlineKeyboardButton("✨ Updates", url="https://t.me/ACE_ML"),
+                    InlineKeyboardButton("⛑️ Support", url="https://t.me/ACE_OffTopic")
                 ],
                 [
-                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/FlashSpeedster1")
+                    InlineKeyboardButton("🧑‍💻 Developer", url="https://t.me/AceContactBot")
                 ]
             ]
         ),
@@ -79,14 +79,14 @@ async def _source_code(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🌐 Source Code 🌐", url="https://t.me/ACE_ML")
+                    InlineKeyboardButton("📦 Source Code", url="https://t.me/ACE_ML")
                 ],
                 [
-                    InlineKeyboardButton("🌟 Join Channel", url="https://t.me/ACE_ML"),
-                    InlineKeyboardButton("💬 Support Group", url="https://t.me/ACE_OffTopic")
+                    InlineKeyboardButton("✨ Updates", url="https://t.me/ACE_ML"),
+                    InlineKeyboardButton("⛑️ Support", url="https://t.me/ACE_OffTopic")
                 ],
                 [
-                    InlineKeyboardButton("👨‍💻 Developer 🧑‍💻", url="https://t.me/FlashSpeedster1")
+                    InlineKeyboardButton("👨‍💻 Developer", url="https://t.me/FlashSpeedster1")
                 ]
             ]
         ),
@@ -111,11 +111,11 @@ async def _help(client, message):
         except UserNotParticipant:
             await client.send_message(
                 chat_id=message.chat.id,
-                text="**Please Join My Updates Channel to use this Bot!**",
+                text="**🙁 Join My Channel To Use This Bot!**",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/{update_channel}")
+                            InlineKeyboardButton("⚡ Join Updates Channel", url=f"https://t.me/{update_channel}")
                         ]
                     ]
                 ),

@@ -47,7 +47,10 @@
     },
     "buildpacks": [
         {
-            "url": "heroku/python"
+            "url": "heroku/python",
+            "versions": {
+                "python": "3.11.6"
+            }
         }
     ]
 }
